@@ -1,0 +1,287 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "india travel guide",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AskState",
+                    "slots": [
+                        {
+                            "name": "state",
+                            "type": "State"
+                        }
+                    ],
+                    "samples": [
+                        "give me attraction in {state}",
+                        "tell me attractions in {state}",
+                        "give me places to visit in {state}",
+                        "tell me places to visit in {state}",
+                        "tell me attraction in {state}",
+                        "give me attractions in {state}",
+                        "to tell about {state}",
+                        "to tell me about {state}",
+                        "{state}",
+                        "about {state}",
+                        "tell me about {state}"
+                    ]
+                },
+                {
+                    "name": "MakeSuggestion",
+                    "slots": [],
+                    "samples": [
+                        "suggest me a state to visit in india",
+                        "suggest me a state in india",
+                        "suggest me a state",
+                        "suggest me a place",
+                        "suggest me a place to visit in India",
+                        "Suggest a state to visit in India",
+                        "Suggest a state in India",
+                        "Suggest a state",
+                        "Suggest a place",
+                        "Suggest a place to visit in India",
+                        "Suggest a place in India",
+                        "recommend a place to visit in India",
+                        "recommend a state in India",
+                        "recommend a state",
+                        "recommend a state to visit in India",
+                        "tell me a state in India",
+                        "tell me a place in India",
+                        "tell me a place to visit in India",
+                        "tell me a state",
+                        "recommend a place",
+                        "recommend a place in India",
+                        "tell me a place",
+                        "Tell me a state to visit in India"
+                    ]
+                },
+                {
+                    "name": "RequestWeather",
+                    "slots": [
+                        {
+                            "name": "state",
+                            "type": "State"
+                        }
+                    ],
+                    "samples": [
+                        "tell bout climate of {state}",
+                        "tell me about climate of {state}",
+                        "whats climate of {state}",
+                        "whats temperature in {state}",
+                        "weather in {state}",
+                        "what's weather like in {state}",
+                        "what's weather in {state}",
+                        "tell bout weather in {state}",
+                        "Tell me about weather in {state}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "State",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Lakshadweep"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Daman and Diu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chandigarh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Puducherry"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Delhi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dadra and Nagar Haveli"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Andaman and Nicobar Islands"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "West Bengal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Uttar Pradesh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Uttarakhand"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tripura"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Telangana"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tamil Nadu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sikkim"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rajasthan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Punjab"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Odisha"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nagaland"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mizoram"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Meghalaya"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Manipur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Maharashtra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Madhya Pradesh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kerala"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Karnataka"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jharkhand"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jammu and Kashmir"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Himachal Pradesh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Haryana"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gujarat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Goa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chhattisgrah"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bihar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Assam"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Arunachal Pradesh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Andhra Pradesh"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
