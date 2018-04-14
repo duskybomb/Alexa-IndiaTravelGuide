@@ -13,6 +13,6 @@ Know about places to visit in India, their special attraction and weather.
 
 ## Files
 
- - [lambda](/lambda/index.js)
+ \- [lambda](/lambda/index.js)
 
- - [IntentSchema](/speechAssets/IntentSchema.json)
+ \- [IntentSchema](/speechAssets/IntentSchema.json)
