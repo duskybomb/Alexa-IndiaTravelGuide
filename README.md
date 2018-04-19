@@ -2,6 +2,8 @@
 
 Know about places to visit in India, their special attraction and weather.
 
+Here is the link to it: [India Travel Guide](https://www.amazon.in/gp/product/B07CCHK539?ie=UTF8&ref-suffix=ss_rw)
+
 
 ## Sample Utterances
 
